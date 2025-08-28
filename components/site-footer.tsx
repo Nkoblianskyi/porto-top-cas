@@ -87,7 +87,7 @@ export function SiteFooter() {
               href="https://www.sicad.pt"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity bg-white"
             >
               <img src="/icad.png" alt="ICAD" className="h-8 w-auto object-contain opacity-60" />
             </Link>
@@ -103,7 +103,7 @@ export function SiteFooter() {
               href="https://www.gamcare.org.uk"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity bg-white rounded px-2 py-1"
             >
               <img src="/gamecare.svg" alt="GamCare" className="h-8 w-auto object-contain opacity-60" />
             </Link>
