@@ -157,6 +157,24 @@ export function CasinoCard({ site, rank }: CasinoCardProps) {
         )}
       >
         <Link href={site.url} target="_blank" rel="noopener noreferrer" className="block">
+          <div className="absolute top-0 left-0 flex gap-0 z-30">
+            <div
+              className={cn("px-2 py-0.5 text-sm font-bold text-white", rank === 1 ? "bg-yellow-600" : "bg-red-700")}
+            >
+              #{rank}
+            </div>
+            {rank <= 4 && (
+              <div
+                className={cn(
+                  "px-2 py-0.5 text-xs font-bold text-white whitespace-nowrap",
+                  rank === 1 ? "bg-yellow-600" : "bg-red-700",
+                )}
+              >
+                {getRankLabel(rank)}
+              </div>
+            )}
+          </div>
+
           <div
             className={cn(
               "pt-6 pb-4 relative",
@@ -193,27 +211,6 @@ export function CasinoCard({ site, rank }: CasinoCardProps) {
                     )}
                   ></div>
                 </div>
-              </div>
-              {/* Badges */}
-              <div className="absolute top-0 left-0 flex gap-0 z-30">
-                <div
-                  className={cn(
-                    "px-2 py-0.5 text-sm font-bold text-white",
-                    rank === 1 ? "bg-yellow-600" : "bg-red-700",
-                  )}
-                >
-                  #{rank}
-                </div>
-                {rank <= 4 && (
-                  <div
-                    className={cn(
-                      "px-2 py-0.5 text-xs font-bold text-white whitespace-nowrap",
-                      rank === 1 ? "bg-yellow-600" : "bg-red-700",
-                    )}
-                  >
-                    {getRankLabel(rank)}
-                  </div>
-                )}
               </div>
               {/* Bonus - 4 колонки */}
               <div className="col-span-4 text-center">
