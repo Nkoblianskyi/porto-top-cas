@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Updated to darker casino-themed colors */
+    --casino-gold: 45 100% 55%;
+    --casino-red: 0 75% 50%;
+    --casino-green: 120 60% 35%;
+    --casino-dark: 0 0% 8%;
+    --casino-darker: 0 0% 5%;
+    --casino-accent: 280 100% 70%;
+  }
+
+  body {
+    /* Set dark background by default for casino theme */
+    background-color: rgb(12 12 12);
+    color: rgb(245 245 245);
+    font-family: var(--font-sans);
+  }
+
+  .dark body {
+    background-color: rgb(8 8 8);
+    color: white;
+  }
+
+  /* Updated gradients for darker casino theme */
+  .casino-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--casino-darker)) 0%,
+      hsl(var(--casino-dark)) 50%,
+      hsl(var(--casino-red)) 100%
+    );
+  }
+
+  .casino-hero-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--casino-darker)) 0%,
+      hsl(var(--casino-dark)) 70%,
+      hsl(var(--casino-gold)) 100%
+    );
+  }
+
+  /* Added casino-specific styling effects */
+  .casino-card-glow {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+
+  .casino-border-glow {
+    border: 1px solid rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+  }
+}
