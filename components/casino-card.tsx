@@ -241,7 +241,7 @@ export function CasinoCard({ site, rank }: CasinoCardProps) {
       </div>
 
       {/* Mobile Layout */}
-      <div className="md:hidden relative mb-1 mx-2 pl-4 pr-8">
+      <div className="md:hidden relative mb-1">
         {rank <= 4 && (
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30">
             <div

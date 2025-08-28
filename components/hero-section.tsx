@@ -19,15 +19,15 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
   }, [])
 
   return (
-    <section className="relative text-white overflow-hidden h-[200px] sm:h-[220px] lg:h-[240px] flex items-center justify-center bg-black/50">
+    <section className="relative text-white overflow-hidden h-[200px] sm:h-[220px] lg:h-[240px] flex items-center justify-center bg-black/50 pt-20">
       <div className="absolute inset-0 bg-black/20 py-2.5 my-1"></div>
 
-      <div className="relative z-10 max-w-[1200px] mx-auto text-center px-8 sm:px-10 py-4 sm:py-6 lg:py-8">
+      <div className="relative z-10 max-w-[1200px] mx-auto text-center px-4 sm:px-6 sm:py-3 lg:py-4 py-6">
         <h1 className="text-lg sm:text-2xl font-bold mb-1 sm:mb-2 leading-tight drop-shadow-2xl animate-fade-in-up font-serif md:text-3xl">
           <span className="text-green-500">APOSTAS</span>
           <span className="text-red-600">PORTUGAL</span>
         </h1>
-        
+
         <p
           className="text-xs sm:text-sm text-gray-100 max-w-3xl mx-auto font-light mb-2 sm:mb-3 animate-fade-in-up md:text-sm"
           style={{ animationDelay: "200ms" }}
@@ -50,7 +50,7 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
           </div>
 
           <div className="flex items-center gap-1 sm:gap-2">
-            <Image src="/flag.png" width={32} height={20} alt="Bandeira de Portugal" className="w-4 h-3 sm:w-5 sm:h-3 rounded-sm" />
+            <Image src="/flag.png" width={32} height={32} alt="Bandeira de Portugal" className="w-4 h-3 sm:w-5 sm:h-3 rounded-sm" />
             <span className="font-medium text-white text-sm">Jogo Seguro</span>
           </div>
         </div>
