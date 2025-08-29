@@ -50,25 +50,6 @@ export function SiteFooter() {
               </li>
             </ul>
           </div>
-
-          {/* Contact Information */}
-          <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h3 className="text-lg font-semibold mb-4 text-white">Contacto</h3>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-gray-400" />
-                <span className="text-gray-400 text-sm">info@casinorei.pt</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-gray-400" />
-                <span className="text-gray-400 text-sm">+351 21 000 0000</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-gray-400" />
-                <span className="text-gray-400 text-sm">Lisboa, Portugal</span>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Responsible Gambling Partners */}
