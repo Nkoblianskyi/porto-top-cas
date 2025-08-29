@@ -34,11 +34,6 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="#rating" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Classificação
-                </Link>
-              </li>
-              <li>
                 <Link href="/cookie-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Política de Cookies
                 </Link>
