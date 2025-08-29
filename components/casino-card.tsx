@@ -106,7 +106,7 @@ export function CasinoCard({ site, rank }: CasinoCardProps) {
             <div className="flex-[0_0_30%] px-4 text-center flex flex-col justify-center h-full relative z-10">
               <div className="text-xs text-red-500 uppercase font-bold mb-1">OFERTA DE BOAS-VINDAS</div>
 
-              <div className="text-lg xl:text-xl font-bold text-yellow-500 mb-1">{site.bonus}</div>
+              <div className="text-lg xl:text-lg font-bold text-yellow-500 mb-1">{site.bonus}</div>
               {site.dopbonus && <div className="text-sm xl:text-base font-bold text-yellow-400">{site.dopbonus}</div>}
             </div>
 
@@ -285,7 +285,7 @@ export function CasinoCard({ site, rank }: CasinoCardProps) {
               <div className="text-center flex flex-col justify-center h-full min-h-[90px]">
                 <div className="text-xs text-red-500 uppercase font-bold mb-1">OFERTA DE BOAS-VINDAS</div>
                 <div className="uppercase font-bold mb-2 text-base text-yellow-400">{site.type}</div>
-                <div className="font-bold text-yellow-500 text-lg leading-tight">{site.bonus}</div>
+                <div className="font-bold text-yellow-500 text-sm leading-tight">{site.bonus}</div>
                 {site.dopbonus && <div className="text-sm font-bold text-yellow-400">{site.dopbonus}</div>}
               </div>
             </div>
