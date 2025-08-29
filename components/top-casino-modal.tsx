@@ -32,7 +32,7 @@ export function TopCasinoModal() {
 
           {/* Casino logo and name */}
           <div className="p-6 text-center border-b border-gray-800">
-            <div className="w-46 h-32 mx-auto mb-4 bg-white rounded-lg flex items-center justify-center">
+            <div className="w-46 h-32 mx-auto mb-4 bg-gray-900 rounded-lg flex items-center justify-center">
               <img
                 src={topCasino.logo || "/placeholder.svg"}
                 alt={topCasino.name}
