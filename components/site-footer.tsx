@@ -39,12 +39,12 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/politica-cookies" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <Link href="/cookie-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Política de Cookies
                 </Link>
               </li>
               <li>
-                <Link href="/politica-privacidade" className="text-gray-400 hover:text-white transition-colors text-sm">
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm">
                   Política de Privacidade
                 </Link>
               </li>
