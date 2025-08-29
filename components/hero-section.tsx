@@ -19,7 +19,7 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
   }, [])
 
   return (
-    <section className="relative text-white overflow-hidden h-[200px] sm:h-[220px] lg:h-[240px] flex items-center justify-center bg-black/50 pt-20">
+    <section className="relative text-white overflow-hidden h-[220px] sm:h-[240px] lg:h-[260px] flex items-center justify-center bg-black/50 pt-20">
       <div className="absolute inset-0 bg-black/20 py-2.5 my-1"></div>
 
       <div className="relative z-10 max-w-[1200px] mx-auto text-center px-4 sm:px-6 sm:py-3 lg:py-4 py-6">
