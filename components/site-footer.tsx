@@ -6,7 +6,7 @@ export function SiteFooter() {
     <footer className="bg-black text-white">
       <div className="container mx-auto px-6 py-12">
         {/* Top Section: Logo + Contact Info */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 border-b border-gray-800 pb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 border-b border-gray-800 pb-8">
           {/* Logo and Description */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <Link href="/" className="flex items-center gap-3 mb-4">
