@@ -36,7 +36,7 @@ export function SiteHeader() {
             <Crown className="h-6 w-6 text-black relative z-10" />
           </div>
           <div className="flex flex-col">
-            <span className="text-lg font-bold leading-none text-white">CasinoRei</span>{" "}
+            <span className="text-lg font-bold leading-none text-white">SitesDeCasinosPt</span>{" "}
           </div>
         </Link>
       </div>

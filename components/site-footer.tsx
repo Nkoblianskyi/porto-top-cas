@@ -107,7 +107,7 @@ export function SiteFooter() {
             <span className="text-xs">O jogo pode causar dependência. Jogue com responsabilidade.</span>
           </p>
 
-          <p className="text-xs">© 2025 CasinoRei. Todos os direitos reservados.</p>
+          <p className="text-xs">© 2025 SitesDeCasinosPT.com. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
