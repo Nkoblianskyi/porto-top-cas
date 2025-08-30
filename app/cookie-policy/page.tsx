@@ -18,7 +18,7 @@ export default function CookiePolicy() {
           <div className="space-y-8 text-gray-350 leading-relaxed">
             <p className="text-sm text-gray-550">Última atualização: Janeiro 2025</p>
             <p>
-              Esta Política de Cookies fornece uma explicação clara de como o ApostasPortugal emprega cookies e
+              Esta Política de Cookies fornece uma explicação clara de como o SitesDeCasinosPT emprega cookies e
               tecnologias similares para o reconhecer durante as suas visitas ao nosso website. Esclarece o que são
               estas tecnologias, as nossas razões para as utilizar e os seus direitos para controlar a sua aplicação.
             </p>

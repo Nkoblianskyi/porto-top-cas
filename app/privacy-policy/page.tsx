@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           <div className="space-y-8 text-gray-350 leading-relaxed">
             <p className="text-sm text-gray-550">Última atualização: Janeiro 2025</p>
             <p>
-              No ApostasPortugal, proteger a sua privacidade é fundamental para a nossa missão. Esta Política de
+              No SitesDeCasinosPT, proteger a sua privacidade é fundamental para a nossa missão. Esta Política de
               Privacidade detalha meticulosamente como recolhemos, utilizamos e protegemos rigorosamente as suas
               informações enquanto explora o nosso website.
             </p>
